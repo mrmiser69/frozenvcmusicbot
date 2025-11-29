@@ -316,8 +316,8 @@ async def fetch_youtube_link_backup(query):
     except Exception as e:
         raise Exception(f"Backup Search API error: {e}")
     
-BOT_NAME = os.environ.get("BOT_NAME", "Frozen Music")
-BOT_LINK = os.environ.get("BOT_LINK", "https://t.me/vcmusiclubot")
+BOT_NAME = os.environ.get("BOT_NAME", "OGGY Music Bot 🇲🇲")
+BOT_LINK = os.environ.get("BOT_LINK", "https://t.me/OggyMusic10_Bot")
 
 from pyrogram.errors import UserAlreadyParticipant, RPCError
 
